@@ -62,4 +62,31 @@ Proposition
 	* Parent of node at k is at k/2
 	* Children of node at k are 2k and 2k+1
 
+### Promotion in a heap
+
+> Scenari: Child's key becomes *larger* than its parent's key
+
+
+To eliminate the violation:
+* Exchange key in child with key in parent
+* Repeat until heap order restored
+
+### Insertion in a heap
+> Insert : Add note at end, then swim it up
+  Cost : At most 1 + lgN Compares
+
+
+### Demotion in a heap
+> Scenario : Parent's key becomes smaller than one (or both) of its children
+
+To eliminate the violation:
+* Exchange key in in parent with key in larger child
+* Repeate until heap order restored
+
+### Delete the maximun in a heap
+>Delete max : Exchange root with node at end ,then sink it down
+ Cost : At most 2lgN compares
+
+ 
+
 
