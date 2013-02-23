@@ -36,6 +36,7 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>>
 		return pq[--N];	
 	}
 }
+</code></pre>
 
 ## binary heaps
 
