@@ -1,4 +1,10 @@
 Books
 =====
 
-a notes for book reading
+some notes for book reading
+
+--------------------
+Book List
+
+* Algorithm
+* Advanced Unix Enviroment Programming
