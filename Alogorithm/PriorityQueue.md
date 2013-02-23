@@ -1,7 +1,7 @@
 # PriorityQueue
 
 ## APIs
-<code> public class MaxPQ<Key extends Comparable<Key>>
+<code> public class MaxPQ<Key extends Comparable<Key>></code>
 * `MaxPQ`					create an empty priority queue
 * `MaxPQ(Key[] a)`		create a priority queue with given keys
 * `void insert(Key v)`	insert a key into the priority queue
