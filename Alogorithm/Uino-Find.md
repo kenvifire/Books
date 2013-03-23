@@ -45,5 +45,5 @@ We assume "is connected to " is an equivalenc relation:
  * Integer array id[] of size N.
  * Interpretation: p and q are connected if they have the same id.
 
- ![quick find](Alogorithm/pics/quick-find-1.jpg)
+ ![quick find](../pics/quick-find-1.jpg)
 
