@@ -91,4 +91,10 @@ To eliminate the violation:
 
 
 
+## Heapsort
+
+Basic plan for in-place sort
+* Create max-heap with all N keys
+* Repeatedly remove the maximun key
+
 
