@@ -1,13 +1,13 @@
 
-##Dynamic Connectivity
+## Dynamic Connectivity
 
-###Problem
+### Problem
 
 Given a set of N objects
 *Union command:connect two objects
 *Find/connected query:is there a path connecting the two objects?
 
-## Modeling the objects
+### Modeling the objects
 
 Applications involve manipulating objects of all types
 * Pixels in a digital photo.
@@ -40,11 +40,12 @@ We assume "is connected to " is an equivalenc relation:
  * int find(int p) component identifier for p(0 to N-1)
  * int count() number of components
 
- ## Quick-find
+
+ ### Quick find
 
  Data structure
  * Integer array id[] of size N.
  * Interpretation: p and q are connected if they have the same id.
 
- ![quick find](pics/quick-find-1.jpg)
+ ![quick find](../pics/quick-find-1.jpg)
 
