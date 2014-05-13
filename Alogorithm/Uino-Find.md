@@ -1,6 +1,7 @@
 
 ## Dynamic Connectivity
 
+
 ### Problem
 
 Given a set of N objects
